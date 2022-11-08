@@ -74,10 +74,10 @@
             "datarate": 100000
         },
         "tx_lut_0": {
-            "pa_gain": 0,
-            "mix_gain": 11,
-            "rf_power": -7,
-            "dig_gain": 2
+            "pa_gain": 3,
+            "mix_gain": 14,
+            "rf_power": 26,
+            "dig_gain": 0
         },
         "tx_lut_15": {
             "pa_gain": 3,
