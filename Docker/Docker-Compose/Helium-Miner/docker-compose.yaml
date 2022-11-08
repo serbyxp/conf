@@ -1,0 +1,30 @@
+---
+version: "3.3"
+services:
+  miner:
+    image: quay.io/team-helium/miner:miner-latest-arm64
+    container_name: miner
+    environment:
+      - REGION_OVERRIDE=US915
+    expose:
+      - "1680"
+      - "4467"
+    volumes:
+      - /home/serby/miner_data:/var/data
+      - /home/serby/miner_config/sys.config:/config/sys.config
+    cap_add:
+      - SYS_RAWIO
+    devices:
+      - /dev/i2c-1:/dev/i2c-1
+    ports:
+      - "1680:1680/udp"
+    networks:
+      - helium
+    restart: unless-stopped
+    
+networks:
+  helium:
+   driver: bridge
+   ipam:
+    config:
+     - subnet: 172.1.0.0/24
