@@ -1,4 +1,4 @@
-<h2> LoRa Device Configurations</h2>
+<h2>LoRa Device Configurations</h2>
 <h3>LoRa global_conf Files</h3>
 <h4>SX1301</h4>
 <li>EU868 Panther X2 Fix global_conf</li>
