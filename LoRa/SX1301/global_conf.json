@@ -78,12 +78,6 @@
             "mix_gain": 14,
             "rf_power": 26,
             "dig_gain": 0
-        },
-        "tx_lut_15": {
-            "pa_gain": 3,
-            "mix_gain": 14,
-            "rf_power": 26,
-            "dig_gain": 0
         }
     },
     "gateway_conf": {
