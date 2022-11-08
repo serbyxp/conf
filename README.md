@@ -1,4 +1,4 @@
-<h1> Configuration File Repository</h1>
+<h1>Configuration File Repository</h1>
 <h2>LoRa</h2>
 <h3>SX1301</h3>
 <li>global_conf.json EU868 Panther X2 fix</li>
