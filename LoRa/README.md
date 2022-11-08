@@ -4,5 +4,4 @@
 <li>EU868 Panther X2 Fix global_conf</li>
 <h4>SX1302</h4>
 <li>US915 global_conf</li>
-<h5>reset_lgw</h5>
-<li>RAK2287 with GPS raspberry pi mPCIe</li>
+<li>reset_lgw RAK2287 with GPS raspberry pi mPCIe</li>
